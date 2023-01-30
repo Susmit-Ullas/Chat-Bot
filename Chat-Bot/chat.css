@@ -1,22 +1,26 @@
-html {
+html 
+{
     scroll-behavior: smooth;
     font-family: Helvetica, sans-serif, Arial;
 }
 
-body {
+body 
+{
     margin: 0 auto;
     background-color: #222;
 }
 
-.chat-bar-collapsible {
+.chat-bar-collapsible 
+{
     position: fixed;
     bottom: 0;
     right: 50px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.collapsible {
-    background-color: rgb(82, 151, 255);
+.collapsible 
+{
+    background-color: darkorange;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -29,14 +33,16 @@ body {
     border-bottom: none;
 }
 
-.content {
+.content 
+{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
 }
 
-.full-chat-block {
+.full-chat-block 
+{
     width: 350px;
     background: white;
     text-align: center;
@@ -46,13 +52,15 @@ body {
     transition: max-height 0.2s ease-out;
 }
 
-.outer-container {
+.outer-container 
+{
     min-height: 500px;
     bottom: 0%;
     position: relative;
 }
 
-.chat-container {
+.chat-container 
+{
     max-height: 500px;
     width: 100%;
     position: absolute;
@@ -62,11 +70,13 @@ body {
     hyphens: auto;
 }
 
-.chat-container::-webkit-scrollbar {
+.chat-container::-webkit-scrollbar 
+{
     display: none;
 }
 
-.chat-bar-input-block {
+.chat-bar-input-block 
+{
     display: flex;
     float: left;
     box-sizing: border-box;
@@ -78,7 +88,8 @@ body {
     padding: 10px 0px 10px 10px;
 }
 
-.chat-bar-icons {
+.chat-bar-icons 
+{
     display: flex;
     justify-content: space-evenly;
     box-sizing: border-box;
@@ -87,7 +98,8 @@ body {
     font-size: 20px;
 }
 
-#chat-icon:hover {
+#chat-icon:hover 
+{
     opacity: .7;
 }
 
