@@ -105,11 +105,13 @@ body
 
 /* Chat bubbles */
 
-#userInput {
+#userInput 
+{
     width: 75%;
 }
 
-.input-box {
+.input-box 
+{
     float: left;
     border: none;
     box-sizing: border-box;
@@ -122,7 +124,8 @@ body
     outline: none
 }
 
-.userText {
+.userText 
+{
     color: white;
     font-family: Helvetica;
     font-size: 16px;
@@ -131,7 +134,8 @@ body
     clear: both;
 }
 
-.userText span {
+.userText span 
+{
     line-height: 1.5em;
     display: inline-block;
     background: #5ca6fa;
@@ -143,7 +147,8 @@ body
     animation: floatup .5s forwards
 }
 
-.botText {
+.botText 
+{
     color: #000;
     font-family: Helvetica;
     font-weight: normal;
@@ -151,7 +156,8 @@ body
     text-align: left;
 }
 
-.botText span {
+.botText span 
+{
     line-height: 1.5em;
     display: inline-block;
     background: #e0e0e0;
@@ -163,29 +169,36 @@ body
     animation: floatup .5s forwards
 }
 
-@keyframes floatup {
-    from {
+@keyframes floatup 
+{
+    from 
+    {
         transform: translateY(14px);
         opacity: .0;
     }
-    to {
+    to 
+    {
         transform: translateY(0px);
         opacity: 1;
     }
 }
 
-@media screen and (max-width:600px) {
-    .full-chat-block {
+@media screen and (max-width:600px) 
+{
+    .full-chat-block 
+    {
         width: 100%;
         border-radius: 0px;
     }
-    .chat-bar-collapsible {
+    .chat-bar-collapsible 
+    {
         position: fixed;
         bottom: 0;
         right: 0;
         width: 100%;
     }
-    .collapsible {
+    .collapsible 
+    {
         width: 100%;
         border: 0px;
         border-top: 3px solid white;
