@@ -39,6 +39,10 @@ function getBotResponse(input)
     {
         return "My favorite game is Minecraft!";
     }
+    else if (input == "what is your favorite movie?")
+    {
+        return "My favorite movie is The Lion King!";
+    }
     else 
     {
         return "Try asking something else!";
