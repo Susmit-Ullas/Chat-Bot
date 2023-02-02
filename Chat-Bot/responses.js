@@ -27,6 +27,10 @@ function getBotResponse(input)
     {
         return "My name is Chat Bot!";
     }
+    else if (input == "what is your favorite color?")
+    {
+        return "My favorite color is blue!";
+    }
     else 
     {
         return "Try asking something else!";
