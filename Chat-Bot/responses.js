@@ -31,6 +31,10 @@ function getBotResponse(input)
     {
         return "My favorite color is blue!";
     }
+    else if (input == "what is your favorite food?")
+    {
+        return "My favorite food is pizza!";
+    }
     else 
     {
         return "Try asking something else!";
