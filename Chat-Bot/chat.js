@@ -98,8 +98,9 @@ function buttonSendText(sampleText)
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
 
     //Uncomment this if you want the bot to respond to this buttonSendText event
-    // setTimeout(() => {
-    //     getHardResponse(sampleText);
+    // setTimeout(() => 
+    // {
+    //      getHardResponse(sampleText);
     // }, 1000)
 }
 
