@@ -23,6 +23,10 @@ function getBotResponse(input)
     {
         return "Talk to you later!";
     } 
+    else if (input == "what is your name?")
+    {
+        return "My name is Chat Bot!";
+    }
     else 
     {
         return "Try asking something else!";
