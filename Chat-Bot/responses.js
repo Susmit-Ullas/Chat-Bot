@@ -47,6 +47,10 @@ function getBotResponse(input)
     {
         return "My favorite sport is Football!";
     }
+    else if (input == "what is your favorite animal?")
+    {
+        return "My favorite animal is a dog!";
+    }
     else 
     {
         return "Try asking something else!";
