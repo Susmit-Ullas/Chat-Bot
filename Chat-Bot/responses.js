@@ -35,6 +35,10 @@ function getBotResponse(input)
     {
         return "My favorite food is pizza!";
     }
+    else if (input == "what is your favorite game?")
+    {
+        return "My favorite game is Minecraft!";
+    }
     else 
     {
         return "Try asking something else!";
