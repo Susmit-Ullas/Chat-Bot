@@ -51,6 +51,10 @@ function getBotResponse(input)
     {
         return "My favorite animal is a dog!";
     }
+    else if (input == "what is your favorite season?")
+    {
+        return "My favorite season is Summer!";
+    }
     else 
     {
         return "Try asking something else!";
