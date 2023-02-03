@@ -30,7 +30,7 @@ body
 .collapsible 
 {
     background-color: rgb(211, 116, 0);
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     padding: 18px;
     width: 350px;
