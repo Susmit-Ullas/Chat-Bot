@@ -135,7 +135,7 @@ body
 
 .userText 
 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Helvetica;
     font-size: 16px;
     font-weight: normal;
