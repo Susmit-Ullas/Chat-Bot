@@ -2,6 +2,7 @@ function getBotResponse(input)
 {
     //rock paper scissors
     let choice = ["rock", "paper", "scissors"];
+    const randomNum = Math.floor(Math.random() * (3-(-1)) + 1);
     let botChoice = choice[randomNum];
     
     if (input == "rock" && botChoice == "paper")
