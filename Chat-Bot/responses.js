@@ -19,6 +19,10 @@ function getBotResponse(input)
     {
         return "Hello there!";
     } 
+    else if (input == "how are you?")
+    {
+        return "I'm doing great! How are you?";
+    }
     else if (input == "goodbye") 
     {
         return "Talk to you later!";
