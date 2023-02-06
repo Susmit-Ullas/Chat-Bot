@@ -1,17 +1,40 @@
 function getBotResponse(input) 
 {
     //rock paper scissors
-    if (input == "rock") 
+    let choice = ["rock", "paper", "scissors"];
+    let botChoice = choice[randomNum];
+    
+    if (input == "rock" && botChoice == "paper")
     {
-        return "paper";
+        return "I chose paper! I win!";
     }
-    else if (input == "paper") 
+    else if (input == "rock" && botChoice == "scissors")
     {
-        return "scissors";
-    } 
-    else if (input == "scissors") 
+        return "I chose scissors! You win!";
+    }
+    else if (input == "paper" && botChoice == "rock")
+    {   
+        return "I chose rock! You win!";
+    }
+    else if (input == "paper" && botChoice == "scissors")
     {
-        return "rock";
+        return "I chose scissors! I win!";
+    }
+    else if (input == "scissors" && botChoice == "rock")
+    {
+        return "I chose rock! I win!";
+    }
+    else if (input == "scissors" && botChoice == "paper")
+    {
+        return "I chose paper! You win!";
+    }
+    else if (input == botChoice)
+    {
+        return "We both chose " + botChoice + "! It's a tie!";
+    }
+    else
+    {
+        return "Try asking something else!";
     }
 
     // Simple responses
