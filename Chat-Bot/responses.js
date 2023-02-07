@@ -35,7 +35,7 @@ function getBotResponse(input)
     }
 
     // Simple responses
-    if (input == "hello") 
+    else if (input == "hello") 
     {
         return "Hello there!";
     } 
