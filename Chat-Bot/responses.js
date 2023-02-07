@@ -33,10 +33,6 @@ function getBotResponse(input)
     {
         return "We both chose " + botChoice + "! It's a tie!";
     }
-    else
-    {
-        return "Try asking something else!";
-    }
 
     // Simple responses
     if (input == "hello") 
