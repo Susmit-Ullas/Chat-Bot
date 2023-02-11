@@ -103,6 +103,10 @@ function getBotResponse(input)
     {
         return "Python is a programming language that lets you work quickly and integrate systems more effectively.";
     }
+    else if (input == "What is java?")
+    {
+        return "Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.";
+    }
     else if (input == "what is your favorite season?")
     {
         return "My favorite season is Summer!";
