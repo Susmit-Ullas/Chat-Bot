@@ -107,6 +107,10 @@ function getBotResponse(input)
     {
         return "Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.";
     }
+    else if (input == "What is c++?")
+    {
+        return "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or 'C with Classes'.";
+    }
     else if (input == "what is your favorite season?")
     {
         return "My favorite season is Summer!";
