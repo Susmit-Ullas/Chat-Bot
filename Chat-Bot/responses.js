@@ -95,6 +95,10 @@ function getBotResponse(input)
     {
         return "CSS is a style sheet language used for describing the presentation of a document written in a markup language like HTML.";
     }
+    else if (input == "What is javascript?")
+    {
+        return "JavaScript is a programming language that adds interactivity to your website.";
+    }
     else if (input == "what is your favorite season?")
     {
         return "My favorite season is Summer!";
