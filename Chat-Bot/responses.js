@@ -87,6 +87,10 @@ function getBotResponse(input)
     {
         return "I am a Chat Bot!";
     }
+    else if (input == "What is html?")
+    {
+        return "HTML is a markup language for creating web pages and web applications.";
+    }
     else if (input == "what is your favorite season?")
     {
         return "My favorite season is Summer!";
