@@ -91,6 +91,10 @@ function getBotResponse(input)
     {
         return "HTML is a markup language for creating web pages and web applications.";
     }
+    else if (input == "What is css?")
+    {
+        return "CSS is a style sheet language used for describing the presentation of a document written in a markup language like HTML.";
+    }
     else if (input == "what is your favorite season?")
     {
         return "My favorite season is Summer!";
