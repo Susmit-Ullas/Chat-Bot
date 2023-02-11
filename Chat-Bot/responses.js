@@ -99,6 +99,10 @@ function getBotResponse(input)
     {
         return "JavaScript is a programming language that adds interactivity to your website.";
     }
+    else if (input == "What is python?")
+    {
+        return "Python is a programming language that lets you work quickly and integrate systems more effectively.";
+    }
     else if (input == "what is your favorite season?")
     {
         return "My favorite season is Summer!";
