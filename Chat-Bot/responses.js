@@ -83,6 +83,10 @@ function getBotResponse(input)
     {
         return "My favorite book is Harry Potter!";
     }
+    else if (input == "Who are you?")
+    {
+        return "I am a Chat Bot!";
+    }
     else if (input == "what is your favorite season?")
     {
         return "My favorite season is Summer!";
