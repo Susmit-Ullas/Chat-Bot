@@ -57,7 +57,7 @@ function getBotResponse(input)
     }
     else if (input == "what is your favorite color?")
     {
-        return "My favorite color is blue!";
+        return "My favorite color is Orange!";
     }
     else if (input == "what is your favorite game?")
     {
