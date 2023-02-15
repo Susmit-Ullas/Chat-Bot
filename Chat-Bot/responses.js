@@ -103,10 +103,6 @@ function getBotResponse(input)
     {
         return "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or 'C with Classes'.";
     }
-    else if (input == "what is your favorite season?")
-    {
-        return "My favorite season is Summer!";
-    }
     else 
     {
         return "Try asking something else!";
