@@ -6,7 +6,7 @@ Chat Bot for websites.
 
 Contributions are always welcome!
 
-If you find any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request.
+If you find any issues or have suggestions for improvements, please feel free to create an issue. I will respond to it as soon as possible.
 
 ## License
 
